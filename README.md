@@ -5,6 +5,8 @@
 
 可视化工具：[regexper](https://regexper.com/)
 
+正则练习：[test](./test/index.md)
+
 ## 字符匹配
 
 1. 模糊匹配：横向模糊和纵向模糊。
@@ -150,6 +152,3 @@
         RegExp#test
         
         RegExp#exec
-        
- ## 正则表达式练习
- 
