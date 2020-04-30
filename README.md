@@ -3,7 +3,7 @@
 参考：[JS正则表达式完整教程](https://juejin.im/post/5965943ff265da6c30653879)
 > 正则表达式是匹配模式，要么匹配字符，要么匹配位置。
 
-[regexper](https://regexper.com/)
+可视化工具：[regexper](https://regexper.com/)
 
 ## 字符匹配
 
@@ -130,3 +130,26 @@
     * 惰性量词“试”的策略是：卖东西加价。给少了，再多给点行不，还有点少啊，再给点。
     
     * 分支结构“试”的策略是：货比三家。这家不行，换一家吧，还不行，再换。
+
+
+## 正则表达式注意点
+
+    * 操作符优先级
+    
+    * 平衡法则、能否使用正则、准确性、效率
+    
+    * 操作api
+        String#search
+        
+        String#split
+        
+        String#match
+        
+        String#replace
+        
+        RegExp#test
+        
+        RegExp#exec
+        
+ ## 正则表达式练习
+ 
