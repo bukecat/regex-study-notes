@@ -29,3 +29,15 @@
     var string = '123123123';
     string.replace(regex, ','); // 123,123,123
     ```
+    
+3. 匹配日期格式2020.03.12或者2020-03-12
+
+    ```js
+    var regex = /^\d{4}([\-\.]{1})\d{2}\1\d{2}$/g;
+    var string1 = '2020.03.12';
+    var string2 = '2020-03.12';
+    var string3 = '2020-03-12';
+    regex.test(string1); // true
+    regex.test(string2); // false
+    regex.test(string3); // true
+    ```
