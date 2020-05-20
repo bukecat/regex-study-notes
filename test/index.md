@@ -41,3 +41,15 @@
     regex.test(string2); // false
     regex.test(string3); // true
     ```
+
+4、当设置全局标志的正则使用test()
+
+   ```js
+    var regexp = /a/g;
+    var string1 = 'a';
+    console.log(regexp.test(string1)); // true
+    console.log(regexp.test(string1)); // false
+    console.log(regexp.test(string1)); // true
+    console.log(regexp.test(string1)); // false
+   ```
+   ![图片](../assets/0520.jpg);
