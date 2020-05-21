@@ -52,5 +52,7 @@
     console.log(regexp.test(string1)); // true
     console.log(regexp.test(string1)); // false
     ```
+    
     * 原因
-      ![图片](../assets/0520.jpg)
+    
+    ![图片](../assets/0520.jpg)
